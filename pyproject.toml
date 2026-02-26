@@ -1,0 +1,20 @@
+[project]
+name = "pdf2mela"
+version = "0.1.0"
+description = "Convert PDF recipes to .melarecipe format using Mistral OCR"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "loguru>=0.7.3",
+    "mistralai>=1.12.4",
+    "pydantic>=2.12.5",
+    "tenacity>=9.1.4",
+    "tyro>=1.0.8",
+]
+
+[project.scripts]
+pdf2mela = "pdf2mela.cli:cli"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
