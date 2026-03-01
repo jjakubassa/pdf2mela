@@ -1,6 +1,6 @@
 [project]
 name = "pdf2mela"
-version = "0.1.0"
+version = "0.1.1"
 description = "Convert PDF recipes to .melarecipe format using Mistral OCR"
 readme = "README.md"
 requires-python = ">=3.11"
