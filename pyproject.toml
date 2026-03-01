@@ -11,6 +11,16 @@ dependencies = [
     "tenacity>=9.1.4",
     "tyro>=1.0.8",
 ]
+license = { text = "MIT" }
+authors = [{ name = "Jonas Jakubassa", email = "jakubassa@posteo.de" }]
+keywords = ["recipes", "ocr", "mistral"]
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+]
+
+[project.urls]
+Homepage = "https://github.com/jjakubassa/pdf2mela"
+Issues = "https://github.com/jjakubassa/pdf2mela/issues"
 
 [project.scripts]
 pdf2mela = "pdf2mela.cli:cli"
